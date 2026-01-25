@@ -1,0 +1,74 @@
+body {
+    background-color: #F3E5F5; /* Ніжний лавандовий фон */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #4a148c;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Стиль для рукописного тексту (аналог Sensa Pen) */
+.handwritten {
+    font-family: 'Caveat', cursive;
+    font-size: 40px; /* Робимо ці слова значно більшими */
+    color: #d81b60; /* Гарний малиновий колір для акценту */
+    font-weight: 700;
+    display: inline-block;
+    transform: rotate(-2deg); /* Легкий нахил для реалістичності */
+    margin: 0 5px;
+}
+
+.description-box {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: left;
+    font-size: 20px;
+}
+
+.diet-list li {
+    color: #6a1b9a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pet-photo {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 8px solid white;
+    border-radius: 30px;
+    margin: 10px;
+    transition: 0.4s;
+}
+
+.pet-photo:hover {
+    transform: scale(1.1) rotate(2deg);
+}
+
+.btn, .btn-up {
+    text-decoration: none;
+    background-color: #6a1b9a;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #4a148c;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
